@@ -3,7 +3,7 @@ import { getSecureRandomBytes, keyPairFromSeed } from "ton-crypto";
 import { backoff } from "../utils/backoff";
 import { toUrlSafe } from "../utils/toURLsafe";
 import * as t from 'io-ts';
-import { delay } from "teslabot";
+import { delay } from "teslabot-fix";
 import { Cell, Address, beginCell, CommentMessage, safeSign, contractAddress, safeSignVerify } from 'ton';
 import BN from 'bn.js';
 import { WalletV4Source } from 'ton-contracts';

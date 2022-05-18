@@ -1,12 +1,13 @@
 {
-  "name": "ton-x",
-  "version": "0.4.0",
-  "repository": "https://github.com/ton-foundation/ton-x.git",
+  "name": "ton-x-fix",
+  "version": "0.4.1",
+  "repository": "https://github.com/cryshado/ton-x-fix",
   "author": "Steve Korshakov <steve@korshakov.com>",
   "license": "MIT",
   "main": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "rm -fr dist && tsc --declaration",
@@ -21,7 +22,7 @@
     "bn.js": "^5.2.0",
     "fp-ts": "^2.12.0",
     "io-ts": "^2.2.16",
-    "teslabot": "^1.5.0",
+    "teslabot-fix": "1.5.2",
     "ton": "9.8.0",
     "ton-contracts": "^3.0.0",
     "ton-crypto": "^3.0.0"
